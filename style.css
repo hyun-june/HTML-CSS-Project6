@@ -1,0 +1,249 @@
+/* nav css */
+.navbar>.container{
+    display: flex;
+    justify-content: space-around !important;
+    padding: 0px;
+}
+
+#logo-img{
+    width: 256px;
+}
+
+.bg-body-tertiary {
+    background-color: white !important;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.nav-item:first-child{
+    font-weight: 700;
+}
+
+/* main css */
+main{
+    margin-bottom: 3rem;
+}
+
+.main-container {
+    background-image: url(img/banner.png);
+    background-position: center;
+    overflow: hidden;
+    height: 414px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-inner{
+    position: relative;
+    width: 80%;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+h2{
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.main-inner>p{
+    font-size: 1em;
+    margin-bottom: 16px;
+}
+
+#inner-btn{
+    border: 2px solid #9013fe;
+    background-color: #9013fe;
+    border-radius: 100px;
+    color: white;
+    font-size: 1em;
+    line-height: normal;
+    font-weight: 500;
+    text-align: center;
+    width: 179px;
+    height: 41px;
+    padding: 8px 20px;
+}
+
+/* main sub-title css */
+
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.sub-title>h2{
+    font-size: 2.2rem;
+}
+
+.sub-title>p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.move-right{
+    position: relative;
+    padding-left: 60em;
+}
+
+.blink{
+    padding-left: 1em;
+    animation: blink-effect 1.3s step-end infinite;
+    position: relative;
+    top: -0.2em;
+    background: linear-gradient(to right top, #861657, #ffa69e);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+@keyframes blink-effect{
+    50%{
+        opacity: 0;
+    }
+}
+
+/* main-card css */
+
+.row{
+    justify-content: center;
+}
+
+.card{
+    transition: 0.2s ;
+}
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card{
+    padding: 0px;
+    margin: 10px 20px;
+}
+
+.card-body>p{
+    font-size: 0.75rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    font-size: 1.125rem;
+    font-weight: 750;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.card-review{
+    color: #9013fe;
+    font-size: 0.75rem;
+}
+
+.card-detail{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.card-detail>span{
+    padding: 0px;
+}
+
+.card-detail>span{
+    padding: 12px 0px;
+}
+
+#detail-left{
+    padding-left: 2em;
+}
+
+#detail-right{
+    padding-right: 2em;
+}
+
+/* footer css */
+
+
+.footer-section{
+    width: 75%;
+    position: relative;
+}
+
+.footer-firstline{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.footeritem{
+    padding-right: 2em;
+}
+
+.fa-youtube{
+    font-size: 1.2rem;
+}
+
+.underline{
+    box-shadow: 0 0 0 0.1px #191919;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-secondline{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 0.875rem;
+}
+
+#secondline-2{
+    color: black;
+}
+
+.col-4{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1920px;
+    }
+}
+
+@media (max-width: 961px){
+    .move-right{
+        position: relative;
+        padding-left: 45em;
+    }
+}
+    
+
