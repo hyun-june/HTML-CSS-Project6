@@ -239,11 +239,47 @@ h2{
     }
 }
 
+@media (max-width: 1024px){
+    .move-right{
+        position: relative;
+        padding-left: 40em;
+    }
+}
+
 @media (max-width: 961px){
     .move-right{
         position: relative;
-        padding-left: 45em;
+        padding-left: 40em;
     }
 }
     
+@media (max-width:900px){
+    .move-right{
+        position: relative;
+        padding-left: 40em;
+        font-size: 0.8rem;
+    }
+}
 
+@media (max-width:430px){
+    .move-right{
+        position: relative;
+        padding-left: 12em;
+        font-size: 0.8rem;
+    }
+
+    .nav-item{
+        font-size: 0.7rem;
+        padding: 0px;
+    }
+
+    .nav-link{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    #secondline-1{
+        font-size: 0.7rem;
+    }
+}
+    
